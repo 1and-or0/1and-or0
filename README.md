@@ -6,7 +6,7 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FErrorOrError404&count_bg=%232B95DB&title_bg=%237174BE&icon=&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-![로고명](https://img.shields.io/badge/style-forthebage-blue?style=for-the-badge&?logo=appveyor&logoColor=#00599C)
+![로고명](https://img.shields.io/badge/https://simpleicons.org/icons/cplusplus.svg-C++-blue?style=for-the-badge)
 ![로고명](https://img.shields.io/badge/로고명-원하는색상코드.svg?&style=for-the-badge&logo=로고명&logoColor=로고색상)
 <!--
 **ErrorOrError404/ErrorOrError404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
