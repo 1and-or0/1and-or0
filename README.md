@@ -1,6 +1,6 @@
 #Hello world 👋
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ErrorOrError404&show_icons=true&theme=github_dark&card_width=300px)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ErrorOrError404&show_icons=true&theme=github_dark&card_width=200px)
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/generate_badge?boj=pjoon0404)](https://solved.ac/pjoon0404)
 
