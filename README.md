@@ -1,6 +1,7 @@
 <h1>Hello world 👋</h1>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ErrorOrError404&show_icons=true&theme=github_dark)
+<!--![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ErrorOrError404&show_icons=true&theme=github_dark)
+-->
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/generate_badge?boj=pjoon0404)](https://solved.ac/pjoon0404)
 
