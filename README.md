@@ -10,6 +10,8 @@
 <h2>Notion</h2>: https://tiny-jelly-c19.notion.site/6938e2653396420da391f734d9577f9a?pvs=4
 
 <h2>Tstory</h2>: https://daily-debugging.tistory.com/
+
+<h2>Youtube</h2>: https://www.youtube.com/channel/UC9L_Ev6y0oXLslpnV0cHqvw
 <!--
 **ErrorOrError404/ErrorOrError404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
