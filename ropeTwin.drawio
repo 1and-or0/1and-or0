@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="625" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="2069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,7 +172,7 @@
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U4vTAyuGruAxUpPn1bt--42" value="CounterView" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f5f5f5;fontFamily=Verdana;fontSize=12;strokeColor=#666666;gradientColor=#b3b3b3;" parent="U4vTAyuGruAxUpPn1bt--141" vertex="1">
-          <mxGeometry x="80" y="280" width="200" height="226" as="geometry">
+          <mxGeometry x="80" y="359" width="200" height="226" as="geometry">
             <mxRectangle x="1135" y="132.99999999999983" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -263,10 +263,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-37" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;View에서 Presenter로&amp;nbsp;&lt;div&gt;이벤트 전달 방법 선택하기&lt;/div&gt;&lt;div&gt;---------------------------------------------&lt;br&gt;방법1: Awake() 안에서, _presenter.OnRestButtonClick()&amp;nbsp;&lt;/div&gt;&lt;div&gt;연결.&lt;br&gt;방법2: OnResetButtonClicked()&amp;nbsp;&lt;/div&gt;&lt;div&gt;래퍼 메서드를 View 에서 구현.&amp;nbsp;&lt;/div&gt;&lt;div&gt;인스펙터 버튼 컴포넌트에서 직접 연결&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" parent="U4vTAyuGruAxUpPn1bt--141" vertex="1">
-          <mxGeometry x="80" y="120" width="200" height="160" as="geometry" />
+          <mxGeometry y="40" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-288" value="View와 Presenter가 너무&lt;div&gt;&amp;nbsp;강하게 결합되는 경우 사용&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="U4vTAyuGruAxUpPn1bt--141">
           <mxGeometry x="480" y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-294" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="U4vTAyuGruAxUpPn1bt--141" source="wKs4-q5Vt6_p3pQ2NuLo-36" target="U4vTAyuGruAxUpPn1bt--74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="460" as="sourcePoint" />
+            <mxPoint x="380" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-295" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;curved=0;exitX=1.016;exitY=0.426;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="U4vTAyuGruAxUpPn1bt--141" source="U4vTAyuGruAxUpPn1bt--48" target="U4vTAyuGruAxUpPn1bt--55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="480" as="sourcePoint" />
+            <mxPoint x="390" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-296" value="MonoBehaviour" style="html=1;whiteSpace=wrap;" vertex="1" parent="U4vTAyuGruAxUpPn1bt--141">
+          <mxGeometry x="120" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-297" value="" style="endArrow=block;endSize=12;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="U4vTAyuGruAxUpPn1bt--141" source="U4vTAyuGruAxUpPn1bt--42" target="RhrSVqkV1kuPy8NH0zBb-296">
+          <mxGeometry x="-0.1675" y="11" width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="350" as="sourcePoint" />
+            <mxPoint x="180" y="300" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-312" value="MonoBehaviour 상속받음 (앞으로 생략)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="U4vTAyuGruAxUpPn1bt--141">
+          <mxGeometry x="80" y="240" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U4vTAyuGruAxUpPn1bt--147" value="" style="endArrow=none;endFill=0;endSize=24;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.013;entryDx=0;entryDy=0;startFill=1;startSize=24;startArrow=diamond;entryPerimeter=0;" parent="1" source="U4vTAyuGruAxUpPn1bt--38" target="U4vTAyuGruAxUpPn1bt--141" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -282,7 +308,10 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2020" y="145" as="sourcePoint" />
             <mxPoint x="2330" y="145" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="2320" y="135" />
+              <mxPoint x="2320" y="214" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-1" value="&lt;div&gt;&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;/div&gt;GameStartViewPrefab" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
@@ -430,7 +459,7 @@
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-56" value="StartSceneView" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f5f5f5;fontFamily=Verdana;fontSize=12;strokeColor=#666666;gradientColor=#b3b3b3;" parent="wKs4-q5Vt6_p3pQ2NuLo-51" vertex="1">
-          <mxGeometry x="80" y="280" width="250" height="330" as="geometry">
+          <mxGeometry x="80" y="280" width="250" height="240" as="geometry">
             <mxRectangle x="1135" y="132.99999999999983" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -440,35 +469,26 @@
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-123" value="- _caption: TextMeshProUGUI&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
           <mxGeometry y="56" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-127" value="- _startSceneSkipSlider: Slider&amp;nbsp;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-247" value="- _timer: float&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;//&amp;nbsp;Time.deltaTime이용" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
           <mxGeometry y="86" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-125" value="- _pressSkipTime: float&amp;nbsp;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-246" value="- _ccTerm: float&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// 자막 변경 시간 간격" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
           <mxGeometry y="116" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-247" value="- _timer: float&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;//&amp;nbsp;Time.deltaTime이용" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="146" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-246" value="- _ccTerm: float&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// 자막 변경 시간 간격" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="176" width="250" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-58" value="- _presenter: StartScenePresenter&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontStyle=1" parent="wKs4-q5Vt6_p3pQ2NuLo-56" vertex="1">
-          <mxGeometry y="206" width="250" height="26" as="geometry" />
+          <mxGeometry y="146" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-59" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="wKs4-q5Vt6_p3pQ2NuLo-56" vertex="1">
-          <mxGeometry y="232" width="250" height="8" as="geometry" />
+          <mxGeometry y="172" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-122" value="+ Update(): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="240" width="250" height="30" as="geometry" />
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-122" value="- Update(): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
+          <mxGeometry y="180" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-35" value="- UpdateSceneCaption(string): void&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="270" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-40" value="- CheckSkipPressed(): void&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="300" width="250" height="30" as="geometry" />
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-35" value="+ UpdateSceneCaption(string): void&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
+          <mxGeometry y="210" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-61" value="StartScenePresenter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f5f5f5;fontFamily=Verdana;fontSize=12;strokeColor=#666666;gradientColor=#b3b3b3;" parent="wKs4-q5Vt6_p3pQ2NuLo-51" vertex="1">
-          <mxGeometry x="440" y="350" width="410" height="212" as="geometry">
+          <mxGeometry x="440" y="350" width="410" height="180" as="geometry">
             <mxRectangle x="1135" y="132.99999999999983" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -489,9 +509,6 @@
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-44" value="+ UpdateSceneImage(): void&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-61">
           <mxGeometry y="150" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-43" value="+ OnSkipPressedEnough(): void&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-61">
-          <mxGeometry y="180" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-67" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;startSize=24;" parent="wKs4-q5Vt6_p3pQ2NuLo-51" source="wKs4-q5Vt6_p3pQ2NuLo-52" target="wKs4-q5Vt6_p3pQ2NuLo-63" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -543,14 +560,11 @@
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-120" value="HACK" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51">
           <mxGeometry x="560" y="600" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-128" value="GameManager에&amp;nbsp;&quot;스킵&quot;을 알릴 때, &lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;1) Presenter에서 알리는 걸로 작성함.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); background-color: transparent;&quot;&gt;2) View 에서 알리는 게 더 나은 방법이거나,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); background-color: transparent;&quot;&gt;기타 다른 방법 있는지 찾아보기&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#a20025;strokeColor=#6F0000;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51">
-          <mxGeometry x="40" y="160" width="240" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-242" value="컷씬 Image 변경은 애니메이션으로" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51">
-          <mxGeometry x="80" y="640" width="220" height="40" as="geometry" />
+          <mxGeometry x="80" y="600" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-244" value="자막 _caption 변경은 Update or 코루틴" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51">
-          <mxGeometry x="80" y="680" width="240" height="40" as="geometry" />
+          <mxGeometry x="80" y="640" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-49" value="시작 스토리 컷씬" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2400" y="1680" width="160" height="80" as="geometry" />
@@ -705,33 +719,6 @@
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-108" value="설정 세부 항목 - 화면모드" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1370" y="3590" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-130" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;exitX=-0.008;exitY=0.585;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RhrSVqkV1kuPy8NH0zBb-43">
-          <mxGeometry x="-0.1675" y="11" width="160" relative="1" as="geometry">
-            <mxPoint x="2800" y="2240" as="sourcePoint" />
-            <mxPoint x="1560" y="350" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2797" y="2270" />
-              <mxPoint x="2720" y="2270" />
-              <mxPoint x="2720" y="2520" />
-              <mxPoint x="2080" y="2520" />
-              <mxPoint x="2080" y="920" />
-              <mxPoint x="1600" y="920" />
-              <mxPoint x="1600" y="350" />
-              <mxPoint x="1560" y="350" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-131" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RhrSVqkV1kuPy8NH0zBb-130">
-          <mxGeometry x="-0.7303" y="-3" relative="1" as="geometry">
-            <mxPoint x="-958" y="-2027" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-133" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RhrSVqkV1kuPy8NH0zBb-130">
-          <mxGeometry x="-0.9196" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-207" value="&lt;div&gt;&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;/div&gt;StageSelectViewPrefab" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="2360" y="3680" width="920" height="860" as="geometry">
@@ -970,22 +957,35 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-280" value="자막, 이미지&amp;nbsp;&lt;div&gt;저장 관리 방법에 따라&lt;/div&gt;&lt;div&gt;&amp;nbsp;수정 필요&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#d80073;strokeColor=#A50040;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-248">
-          <mxGeometry x="40" y="80" width="160" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-282" value="GameManager에&amp;nbsp;&quot;스킵&quot;을 알릴 때, &lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;1) Presenter에서 알리는 걸로 작성함.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); background-color: transparent;&quot;&gt;2) View 에서 알리는 게 더 나은 방법이거나,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); background-color: transparent;&quot;&gt;기타 다른 방법 있는지 찾아보기&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-248">
-          <mxGeometry x="40" y="160" width="240" height="80" as="geometry" />
+          <mxGeometry x="80" y="80" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-287" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=0;" edge="1" parent="1">
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-289" value="스토리 컷씬 건너뛰기" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3400" y="1680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-290" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;exitX=-0.004;exitY=0.324;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RhrSVqkV1kuPy8NH0zBb-273">
           <mxGeometry x="-0.1675" y="11" width="160" relative="1" as="geometry">
-            <mxPoint x="1570" y="210" as="sourcePoint" />
-            <mxPoint x="1690" y="10" as="targetPoint" />
+            <mxPoint x="3720" y="2180" as="sourcePoint" />
+            <mxPoint x="1560" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1610" y="210" />
-              <mxPoint x="1610" y="10" />
+              <mxPoint x="3720" y="2200" />
+              <mxPoint x="3680" y="2200" />
+              <mxPoint x="3680" y="2520" />
+              <mxPoint x="2080" y="2520" />
+              <mxPoint x="2080" y="920" />
+              <mxPoint x="1600" y="920" />
+              <mxPoint x="1600" y="350" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-292" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RhrSVqkV1kuPy8NH0zBb-290">
+          <mxGeometry x="-0.9196" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-310" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;MVP중 View만 MonoBehaviour를 상속받음&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-390" width="690" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
