@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="625" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="114" dy="1482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
           <mxGeometry y="164" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U4vTAyuGruAxUpPn1bt--23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GameState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Initial&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Subtitle&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Cutscene&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ChapterSelect&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Setting&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;StageSelect&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Playing&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;connectable=1;imageAspect=1;expand=1;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="280" width="110" height="150" as="geometry" />
+          <mxGeometry x="1160" y="280" width="110" height="150" as="geometry" />
         </mxCell>
         <mxCell id="U4vTAyuGruAxUpPn1bt--34" value="" style="endArrow=none;endFill=0;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.046;entryDx=0;entryDy=0;curved=1;entryPerimeter=0;startFill=1;startArrow=diamond;startSize=24;strokeColor=light-dark(#000000,#FFFFFF);" parent="1" source="U4vTAyuGruAxUpPn1bt--7" target="U4vTAyuGruAxUpPn1bt--23" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
