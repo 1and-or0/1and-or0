@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="683" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="401" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -651,11 +651,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-83" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RhrSVqkV1kuPy8NH0zBb-82">
-          <mxGeometry x="-0.3952" y="-19" relative="1" as="geometry">
-            <mxPoint x="13" y="-17" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-84" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=0;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RhrSVqkV1kuPy8NH0zBb-60" source="RhrSVqkV1kuPy8NH0zBb-69" target="RhrSVqkV1kuPy8NH0zBb-74">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="507" y="456" as="sourcePoint" />
@@ -663,11 +658,6 @@
             <Array as="points">
               <mxPoint x="280" y="330" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-85" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RhrSVqkV1kuPy8NH0zBb-84">
-          <mxGeometry x="-0.1884" y="42" relative="1" as="geometry">
-            <mxPoint x="8" y="50" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-86" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span&gt;IChapterView&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;_ _&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ void StartBtnVisualFeedback()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-60">
@@ -691,11 +681,6 @@
             <Array as="points">
               <mxPoint x="1030" y="120" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-90" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RhrSVqkV1kuPy8NH0zBb-89">
-          <mxGeometry x="-0.1884" y="42" relative="1" as="geometry">
-            <mxPoint x="-22" y="57" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-91" value="챕터 선택" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
