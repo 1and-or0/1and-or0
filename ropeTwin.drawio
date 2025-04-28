@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="539" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="-320" dy="1256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -551,7 +551,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-60" value="&lt;div&gt;&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;/div&gt;ChapterNViewPrefab" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="3360" y="2640" width="920" height="860" as="geometry">
+          <mxGeometry x="2360" y="2680" width="920" height="860" as="geometry">
             <mxRectangle x="2280" y="-190" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -577,7 +577,7 @@
             <mxRectangle x="1135" y="132.99999999999983" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-101" value="- _chapterBtn: Button" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-66">
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-101" value="- _chapterBtn: List&amp;lt;Button&amp;gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-66">
           <mxGeometry y="26" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-69" value="- ChapterPresenter _presenter" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontStyle=1" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-66">
@@ -586,7 +586,7 @@
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-70" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-66">
           <mxGeometry y="86" width="230" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-71" value="+ void ShowStageList()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-66">
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-71" value="+ OnChapterClicked()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-66">
           <mxGeometry y="96" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-72" value="+&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="RhrSVqkV1kuPy8NH0zBb-66">
@@ -663,7 +663,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-91" value="특정 챕터 선택" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="3420" y="2600" width="160" height="80" as="geometry" />
+          <mxGeometry x="2420" y="2640" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-92" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;exitX=0.988;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhrSVqkV1kuPy8NH0zBb-56" target="wKs4-q5Vt6_p3pQ2NuLo-9">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -676,16 +676,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-98" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-98" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RhrSVqkV1kuPy8NH0zBb-60">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1990" y="290" as="sourcePoint" />
             <mxPoint x="3360" y="2640" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2160" y="290" />
-              <mxPoint x="2160" y="2600" />
-              <mxPoint x="3320" y="2600" />
-              <mxPoint x="3320" y="2640" />
-              <mxPoint x="3360" y="2640" />
+              <mxPoint x="2160" y="2703" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -721,12 +718,6 @@
           <mxGeometry x="-0.9196" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-197" value="&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;br&gt;&lt;div&gt;ChaptersPerentPrefab&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="2640" width="850" height="840" as="geometry" />
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-201" value="&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;br&gt;&lt;div&gt;ChaterNViewPrefab&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2505" y="2950" width="405" height="371" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
