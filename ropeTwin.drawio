@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="266" dy="1561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="-300" dy="1266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -268,18 +268,6 @@
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-288" value="View와 Presenter가 너무&lt;div&gt;&amp;nbsp;강하게 결합되는 경우 사용&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="U4vTAyuGruAxUpPn1bt--141">
           <mxGeometry x="480" y="120" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-294" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="U4vTAyuGruAxUpPn1bt--141" source="wKs4-q5Vt6_p3pQ2NuLo-36" target="U4vTAyuGruAxUpPn1bt--74">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="460" as="sourcePoint" />
-            <mxPoint x="380" y="490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-295" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;curved=0;exitX=1.016;exitY=0.426;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="U4vTAyuGruAxUpPn1bt--141" source="U4vTAyuGruAxUpPn1bt--48" target="U4vTAyuGruAxUpPn1bt--55">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="480" as="sourcePoint" />
-            <mxPoint x="390" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-296" value="MonoBehaviour" style="html=1;whiteSpace=wrap;" vertex="1" parent="U4vTAyuGruAxUpPn1bt--141">
           <mxGeometry x="120" y="280" width="120" height="40" as="geometry" />
         </mxCell>
@@ -459,33 +447,36 @@
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-56" value="StartSceneView" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f5f5f5;fontFamily=Verdana;fontSize=12;strokeColor=#666666;gradientColor=#b3b3b3;" parent="wKs4-q5Vt6_p3pQ2NuLo-51" vertex="1">
-          <mxGeometry x="80" y="280" width="250" height="240" as="geometry">
+          <mxGeometry x="80" y="280" width="240" height="270" as="geometry">
             <mxRectangle x="1135" y="132.99999999999983" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-76" value="- _image: Image&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="wKs4-q5Vt6_p3pQ2NuLo-56" vertex="1">
-          <mxGeometry y="26" width="250" height="30" as="geometry" />
+          <mxGeometry y="26" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-123" value="- _caption: TextMeshProUGUI&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="56" width="250" height="30" as="geometry" />
+          <mxGeometry y="56" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-247" value="- _timer: float&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;//&amp;nbsp;Time.deltaTime이용" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="86" width="250" height="30" as="geometry" />
+          <mxGeometry y="86" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-246" value="- _ccTerm: float&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// 자막 변경 시간 간격" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="116" width="250" height="30" as="geometry" />
+          <mxGeometry y="116" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-58" value="- _presenter: StartScenePresenter&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontStyle=1" parent="wKs4-q5Vt6_p3pQ2NuLo-56" vertex="1">
-          <mxGeometry y="146" width="250" height="26" as="geometry" />
+          <mxGeometry y="146" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-59" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="wKs4-q5Vt6_p3pQ2NuLo-56" vertex="1">
-          <mxGeometry y="172" width="250" height="8" as="geometry" />
+          <mxGeometry y="172" width="240" height="8" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-122" value="- Update(): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="180" width="250" height="30" as="geometry" />
+          <mxGeometry y="180" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-35" value="+ UpdateSceneCaption(string): void&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
-          <mxGeometry y="210" width="250" height="30" as="geometry" />
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-313" value="+ OnCaptionChanged(): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
+          <mxGeometry y="210" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-35" value="+ UpdateCaption(string caption): void&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-56">
+          <mxGeometry y="240" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-61" value="StartScenePresenter" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f5f5f5;fontFamily=Verdana;fontSize=12;strokeColor=#666666;gradientColor=#b3b3b3;" parent="wKs4-q5Vt6_p3pQ2NuLo-51" vertex="1">
           <mxGeometry x="440" y="350" width="410" height="180" as="geometry">
@@ -565,6 +556,45 @@
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-244" value="자막 _caption 변경은 Update or 코루틴" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51">
           <mxGeometry x="80" y="600" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-314" value="Animator에 이벤트로&lt;div&gt;&amp;nbsp;OnCaptionChanged() 연결.&lt;br&gt;OnCaptionChanged() 내부,&lt;br&gt;&amp;nbsp;_presenter.UpdateSceneCaption() 호출.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51">
+          <mxGeometry x="80" y="640" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-350" value="" style="endArrow=open;endFill=0;endSize=24;html=1;rounded=1;entryX=0.001;entryY=0.306;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;edgeStyle=orthogonalEdgeStyle;curved=0;entryPerimeter=0;" edge="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51" source="RhrSVqkV1kuPy8NH0zBb-313" target="RhrSVqkV1kuPy8NH0zBb-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="250" as="sourcePoint" />
+            <mxPoint x="390" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="505" />
+              <mxPoint x="360" y="480" />
+              <mxPoint x="440" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-352" value="&lt;div&gt;UpdateSceneCaption() 내부,&lt;/div&gt;&lt;div&gt;_model.NextCaption() 호출&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51">
+          <mxGeometry x="640" y="530" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-353" value="" style="endArrow=open;endFill=0;endSize=24;html=1;rounded=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51" target="wKs4-q5Vt6_p3pQ2NuLo-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="490" as="sourcePoint" />
+            <mxPoint x="430" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="490" />
+              <mxPoint x="400" y="490" />
+              <mxPoint x="400" y="739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-354" value="" style="endArrow=open;endFill=0;endSize=24;html=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;edgeStyle=orthogonalEdgeStyle;entryX=0.998;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51" target="RhrSVqkV1kuPy8NH0zBb-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="484" as="sourcePoint" />
+            <mxPoint x="350" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="484" />
+              <mxPoint x="380" y="540" />
+              <mxPoint x="324" y="540" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-49" value="시작 스토리 컷씬" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2400" y="1680" width="160" height="80" as="geometry" />
