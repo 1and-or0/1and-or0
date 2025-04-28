@@ -103,19 +103,19 @@
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-45" value="-&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
           <mxGeometry y="484" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U4vTAyuGruAxUpPn1bt--87" value="+&amp;nbsp;void ShowCounterView()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
+        <mxCell id="U4vTAyuGruAxUpPn1bt--87" value="+ ShowCounterView(): void&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
           <mxGeometry y="514" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U4vTAyuGruAxUpPn1bt--88" value="+&amp;nbsp;void HideCounterView()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
+        <mxCell id="U4vTAyuGruAxUpPn1bt--88" value="+ HideCounterView(): void&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
           <mxGeometry y="544" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-41" value="+&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
           <mxGeometry y="574" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-42" value="+&amp;nbsp;void ShowGameStartView()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
+        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-42" value="+ ShowGameStartView(): void&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
           <mxGeometry y="604" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-43" value="+&amp;nbsp;void&amp;nbsp; HideGameStartView()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
+        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-43" value="+ HideGameStartView(): void&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
           <mxGeometry y="634" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-44" value="+&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
