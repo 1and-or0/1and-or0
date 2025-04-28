@@ -100,7 +100,7 @@
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-43" value="+&amp;nbsp;void&amp;nbsp; HideGameStartView()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U4vTAyuGruAxUpPn1bt--35">
           <mxGeometry y="398" width="309" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-44" value="+&amp;nbsp;void HideCounterView()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U4vTAyuGruAxUpPn1bt--35">
+        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-44" value="+&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U4vTAyuGruAxUpPn1bt--35">
           <mxGeometry y="424" width="309" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U4vTAyuGruAxUpPn1bt--94" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=0;" parent="1" source="78961159f06e98e8-108" target="U4vTAyuGruAxUpPn1bt--35" edge="1">
