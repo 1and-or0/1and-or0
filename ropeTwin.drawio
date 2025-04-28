@@ -1,8 +1,8 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="-625" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="-285" dy="1279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
-        <UserObject label="" startScenePresenter="dkdk" id="0">
+        <UserObject label="" startScenePresenter="StartScenePresenter" id="0">
           <mxCell />
         </UserObject>
         <mxCell id="1" parent="0" />
@@ -591,7 +591,7 @@
             <mxGeometry x="110" y="460" width="40" height="20" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" placeholder="startScenePresenter" label="dkdk" id="RhrSVqkV1kuPy8NH0zBb-10">
+        <object placeholders="1" placeholder="startScenePresenter" label="StartScenePresenter" id="RhrSVqkV1kuPy8NH0zBb-10">
           <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51">
             <mxGeometry x="170" y="490" width="60" height="30" as="geometry" />
           </mxCell>
