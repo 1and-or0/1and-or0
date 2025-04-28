@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="-403" dy="1213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="2998" dy="2983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -318,7 +318,7 @@
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-5" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="wKs4-q5Vt6_p3pQ2NuLo-2" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-6" value="+ LoadSave(): void&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="wKs4-q5Vt6_p3pQ2NuLo-2" vertex="1">
+        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-6" value="+ LoadSave(): void&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;" parent="wKs4-q5Vt6_p3pQ2NuLo-2" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-8" value="GameStartView" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f5f5f5;fontFamily=Verdana;fontSize=12;strokeColor=#666666;gradientColor=#b3b3b3;" parent="wKs4-q5Vt6_p3pQ2NuLo-1" vertex="1">
@@ -361,7 +361,7 @@
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-20" value="+ GameStartPresenter(IGameStarView view, GameStartModel model)" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="wKs4-q5Vt6_p3pQ2NuLo-16" vertex="1">
           <mxGeometry y="94" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-21" value="+ LoadSavedGameData(): void&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontStyle=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="wKs4-q5Vt6_p3pQ2NuLo-16" vertex="1">
+        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-21" value="+ LoadSavedGameData(): void&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontStyle=1;" parent="wKs4-q5Vt6_p3pQ2NuLo-16" vertex="1">
           <mxGeometry y="124" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-23" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;startSize=24;" parent="wKs4-q5Vt6_p3pQ2NuLo-1" source="wKs4-q5Vt6_p3pQ2NuLo-2" target="wKs4-q5Vt6_p3pQ2NuLo-18" edge="1">
@@ -405,11 +405,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-115" value="HACK" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-1">
-          <mxGeometry x="680" y="320" width="70" height="40" as="geometry" />
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-398" value="← HACK" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-1">
+          <mxGeometry x="520" y="650" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-116" value="HACK" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-1">
-          <mxGeometry x="440" y="560" width="70" height="40" as="geometry" />
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-401" value="← HACK" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-1">
+          <mxGeometry x="780" y="470" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-32" value="MVP 예시&amp;nbsp;&lt;div&gt;(더미, 실제 사용X)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2480" y="-240" width="160" height="80" as="geometry" />
