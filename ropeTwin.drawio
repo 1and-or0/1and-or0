@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1880" dy="2401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="-107" dy="1367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -350,11 +350,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-24" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wKs4-q5Vt6_p3pQ2NuLo-23" vertex="1" connectable="0">
-          <mxGeometry x="-0.3952" y="-19" relative="1" as="geometry">
-            <mxPoint x="-16" y="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-25" value="" style="endArrow=none;endFill=0;endSize=24;html=1;rounded=0;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=diamond;startFill=1;startSize=24;" parent="wKs4-q5Vt6_p3pQ2NuLo-1" source="wKs4-q5Vt6_p3pQ2NuLo-12" target="wKs4-q5Vt6_p3pQ2NuLo-16" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="507" y="456" as="sourcePoint" />
@@ -362,11 +357,6 @@
             <Array as="points">
               <mxPoint x="330" y="320" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-26" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wKs4-q5Vt6_p3pQ2NuLo-25" vertex="1" connectable="0">
-          <mxGeometry x="-0.1884" y="42" relative="1" as="geometry">
-            <mxPoint x="8" y="50" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-27" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span&gt;IGameStartView&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;_ _&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ void StartBtnVisualFeedback()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontStyle=1" parent="wKs4-q5Vt6_p3pQ2NuLo-1" vertex="1">
@@ -390,11 +380,6 @@
             <Array as="points">
               <mxPoint x="930" y="140" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-31" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wKs4-q5Vt6_p3pQ2NuLo-30" vertex="1" connectable="0">
-          <mxGeometry x="-0.1884" y="42" relative="1" as="geometry">
-            <mxPoint x="-27" y="157" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-33" value="게임 시작" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" parent="wKs4-q5Vt6_p3pQ2NuLo-1" vertex="1">
@@ -511,11 +496,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-68" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wKs4-q5Vt6_p3pQ2NuLo-67" vertex="1" connectable="0">
-          <mxGeometry x="-0.3952" y="-19" relative="1" as="geometry">
-            <mxPoint x="-16" y="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-69" value="" style="endArrow=none;endFill=0;endSize=24;html=1;rounded=0;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=diamond;startFill=1;startSize=24;" parent="wKs4-q5Vt6_p3pQ2NuLo-51" source="wKs4-q5Vt6_p3pQ2NuLo-58" target="wKs4-q5Vt6_p3pQ2NuLo-61" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="507" y="456" as="sourcePoint" />
@@ -523,11 +503,6 @@
             <Array as="points">
               <mxPoint x="370" y="390" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-70" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wKs4-q5Vt6_p3pQ2NuLo-69" vertex="1" connectable="0">
-          <mxGeometry x="-0.1884" y="42" relative="1" as="geometry">
-            <mxPoint x="-2" y="34" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-71" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span&gt;IStartSceneView&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;_ _&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ void StartBtnVisualFeedback()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontStyle=1" parent="wKs4-q5Vt6_p3pQ2NuLo-51" vertex="1">
@@ -551,11 +526,6 @@
             <Array as="points">
               <mxPoint x="1080" y="240" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-75" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wKs4-q5Vt6_p3pQ2NuLo-74" vertex="1" connectable="0">
-          <mxGeometry x="-0.1884" y="42" relative="1" as="geometry">
-            <mxPoint x="1" y="57" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-50" value="자막, 이미지&amp;nbsp;&lt;div&gt;저장 관리 방법에 따라&lt;/div&gt;&lt;div&gt;&amp;nbsp;수정 필요&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="wKs4-q5Vt6_p3pQ2NuLo-51">
