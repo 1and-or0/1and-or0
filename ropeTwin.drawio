@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="539" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="2401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,21 +232,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U4vTAyuGruAxUpPn1bt--80" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4vTAyuGruAxUpPn1bt--78" vertex="1" connectable="0">
-          <mxGeometry x="-0.3952" y="-19" relative="1" as="geometry">
-            <mxPoint x="-12" y="-62" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="U4vTAyuGruAxUpPn1bt--82" value="" style="endArrow=none;endFill=0;endSize=24;html=1;rounded=0;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=diamond;startFill=1;startSize=24;" parent="U4vTAyuGruAxUpPn1bt--141" source="U4vTAyuGruAxUpPn1bt--45" target="U4vTAyuGruAxUpPn1bt--49" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="507" y="456" as="sourcePoint" />
             <mxPoint x="576" y="562" as="targetPoint" />
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4vTAyuGruAxUpPn1bt--83" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4vTAyuGruAxUpPn1bt--82" vertex="1" connectable="0">
-          <mxGeometry x="-0.1884" y="42" relative="1" as="geometry">
-            <mxPoint x="63" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U4vTAyuGruAxUpPn1bt--64" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ICounterView&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;_ _&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ void UpdateCountText(int count)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="U4vTAyuGruAxUpPn1bt--141" vertex="1">
@@ -272,11 +262,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U4vTAyuGruAxUpPn1bt--76" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4vTAyuGruAxUpPn1bt--75" vertex="1" connectable="0">
-          <mxGeometry x="-0.1884" y="42" relative="1" as="geometry">
-            <mxPoint x="-12" y="2" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-37" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;View에서 Presenter로&amp;nbsp;&lt;div&gt;이벤트 전달 방법 선택하기&lt;/div&gt;&lt;div&gt;---------------------------------------------&lt;br&gt;방법1: Awake() 안에서, _presenter.OnRestButtonClick()&amp;nbsp;&lt;/div&gt;&lt;div&gt;연결.&lt;br&gt;방법2: OnResetButtonClicked()&amp;nbsp;&lt;/div&gt;&lt;div&gt;래퍼 메서드를 View 에서 구현.&amp;nbsp;&lt;/div&gt;&lt;div&gt;인스펙터 버튼 컴포넌트에서 직접 연결&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" parent="U4vTAyuGruAxUpPn1bt--141" vertex="1">
           <mxGeometry x="80" y="80" width="200" height="160" as="geometry" />
         </mxCell>
@@ -290,21 +275,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U4vTAyuGruAxUpPn1bt--148" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4vTAyuGruAxUpPn1bt--147" vertex="1" connectable="0">
-          <mxGeometry x="-0.1824" y="3" relative="1" as="geometry">
-            <mxPoint x="3" y="-19" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="U4vTAyuGruAxUpPn1bt--149" value="" style="endArrow=none;endFill=1;endSize=24;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;exitX=0.989;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.066;entryDx=0;entryDy=0;entryPerimeter=0;startSize=24;startArrow=diamond;startFill=1;" parent="1" source="U4vTAyuGruAxUpPn1bt--84" target="U4vTAyuGruAxUpPn1bt--42" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2100" y="135" as="sourcePoint" />
             <mxPoint x="2410" y="135" as="targetPoint" />
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4vTAyuGruAxUpPn1bt--157" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="U4vTAyuGruAxUpPn1bt--149" vertex="1" connectable="0">
-          <mxGeometry x="0.2379" relative="1" as="geometry">
-            <mxPoint x="-72" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-1" value="&lt;div&gt;&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;/div&gt;GameStartViewPrefab" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
@@ -442,11 +417,6 @@
               <mxPoint x="2360" y="159" />
               <mxPoint x="2360" y="800" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-47" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="wKs4-q5Vt6_p3pQ2NuLo-46" vertex="1" connectable="0">
-          <mxGeometry x="-0.1824" y="3" relative="1" as="geometry">
-            <mxPoint x="-3" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-51" value="&lt;div&gt;&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;/div&gt;StartSceneViewPrefab" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
@@ -733,11 +703,6 @@
               <mxPoint x="2320" y="190" />
               <mxPoint x="2320" y="1060" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-94" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RhrSVqkV1kuPy8NH0zBb-92">
-          <mxGeometry x="-0.047" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-98" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
