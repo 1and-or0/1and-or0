@@ -67,7 +67,7 @@
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-48" value="+ GameObject _gameStartViewPrefab" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="U4vTAyuGruAxUpPn1bt--35" vertex="1">
           <mxGeometry y="146" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RhrSVqkV1kuPy8NH0zBb-56" value="+ StartView _startViewInstance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U4vTAyuGruAxUpPn1bt--35">
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-56" value="+ ... ViewInstance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U4vTAyuGruAxUpPn1bt--35">
           <mxGeometry y="176" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-55" value="+ GameObject _startSceneViewPrefab" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U4vTAyuGruAxUpPn1bt--35">
