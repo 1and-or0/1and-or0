@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="-403" dy="1213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="2069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -405,7 +405,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wKs4-q5Vt6_p3pQ2NuLo-51" value="&lt;div&gt;&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;/div&gt;StartSceneViewPrefab" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="2360" y="1680" width="920" height="860" as="geometry">
+          <mxGeometry x="2360" y="1720" width="920" height="860" as="geometry">
             <mxRectangle x="2280" y="-190" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -538,21 +538,20 @@
           <mxGeometry x="40" y="200" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-49" value="시작 스토리 컷씬" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2400" y="1640" width="160" height="80" as="geometry" />
+          <mxGeometry x="2400" y="1680" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-51" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RhrSVqkV1kuPy8NH0zBb-55" target="wKs4-q5Vt6_p3pQ2NuLo-51">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2020" y="300" as="sourcePoint" />
             <mxPoint x="2395" y="1354" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1990" y="220" />
               <mxPoint x="2200" y="220" />
-              <mxPoint x="2200" y="1680" />
+              <mxPoint x="2200" y="1720" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-60" value="&lt;div&gt;&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;/div&gt;ChapterNViewPrefab" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="2360" y="2640" width="920" height="860" as="geometry">
+          <mxGeometry x="3360" y="2640" width="920" height="860" as="geometry">
             <mxRectangle x="2280" y="-190" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -664,7 +663,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-91" value="특정 챕터 선택" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#ffffff;darkOpacity=0.05;fillColor=#6d8764;strokeColor=#3A5431;fillStyle=solid;direction=north;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2420" y="2600" width="160" height="80" as="geometry" />
+          <mxGeometry x="3420" y="2600" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-92" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;exitX=0.988;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhrSVqkV1kuPy8NH0zBb-56" target="wKs4-q5Vt6_p3pQ2NuLo-9">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -680,11 +679,13 @@
         <mxCell id="RhrSVqkV1kuPy8NH0zBb-98" value="" style="endArrow=diamond;endFill=1;endSize=24;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1990" y="290" as="sourcePoint" />
-            <mxPoint x="2360" y="2650" as="targetPoint" />
+            <mxPoint x="3360" y="2640" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2160" y="290" />
-              <mxPoint x="2160" y="2650" />
-              <mxPoint x="2360" y="2650" />
+              <mxPoint x="2160" y="2600" />
+              <mxPoint x="3320" y="2600" />
+              <mxPoint x="3320" y="2640" />
+              <mxPoint x="3360" y="2640" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -699,9 +700,10 @@
             <mxPoint x="2800" y="2240" as="sourcePoint" />
             <mxPoint x="1570" y="361" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2720" y="2228" />
-              <mxPoint x="2720" y="2400" />
-              <mxPoint x="2080" y="2400" />
+              <mxPoint x="2797" y="2270" />
+              <mxPoint x="2720" y="2270" />
+              <mxPoint x="2720" y="2520" />
+              <mxPoint x="2080" y="2520" />
               <mxPoint x="2080" y="920" />
               <mxPoint x="1600" y="920" />
               <mxPoint x="1600" y="350" />
@@ -719,6 +721,12 @@
           <mxGeometry x="-0.9196" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-197" value="&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;br&gt;&lt;div&gt;ChaptersPerentPrefab&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="2640" width="850" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrSVqkV1kuPy8NH0zBb-201" value="&amp;lt;&amp;lt;Prefab&amp;gt;&amp;gt;&lt;br&gt;&lt;div&gt;StartPrefab&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2505" y="2950" width="405" height="371" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
